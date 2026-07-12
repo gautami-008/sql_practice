@@ -6,7 +6,7 @@ Human Resources (Employees & Departments) and E-commerce (Orders & Sales Trackin
 
 The primary purpose of this project is to demonstrate proficiency in writing clean, optimized, and complex SQL queries—ranging from window functions and recursive-style self-joins to Common Table Expressions (CTEs) and conditional aggregations.
 
-#📊 Database Schema Overview
+# Database Schema Overview📊
 
 The repository sets up three highly relational tables designed to simulate realistic business scenarios:
 
@@ -16,12 +16,12 @@ employees1: Stores operational employee data, handling salary structures, hiring
 
 orders1: Tracks day-to-day e-commerce transactional sales data.
 
-#🚀 Key Analytics Solved
+# Key Analytics Solved🚀
 
 The script contains production-ready solutions for complex analytical problems often requested by executive business leadership:
 
 1. Self-Joins & Organizational Hierarchies
-2. 
+ 
 Manager Performance Check: Identified employees earning a higher salary than their direct managers.
 
 Root-Node Mapping: Tracked top-level organizational leaders (employees who do not report to anyone).
