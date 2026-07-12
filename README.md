@@ -20,7 +20,7 @@ orders1: Tracks day-to-day e-commerce transactional sales data.
 
 The script contains production-ready solutions for complex analytical problems often requested by executive business leadership:
 
-1. Self-Joins & Organizational Hierarchies
+   # 1. Self-Joins & Organizational Hierarchies
  
 Manager Performance Check: Identified employees earning a higher salary than their direct managers.
 
@@ -29,14 +29,14 @@ Root-Node Mapping: Tracked top-level organizational leaders (employees who do no
 Direct Reports Aggregation: Extracted managers managing multi-person teams utilizing LEFT JOIN and HAVING filters.
 
 
-2. Deep Financial & Departmental Reporting
+   # 2. Deep Financial & Departmental Reporting
    
 Budget Expenditure Breakdown: Leveraged LEFT JOIN combined with CASE WHEN logic to calculate the total salary budget allocation per department—ensuring empty departments reflect a clean 0.00 balance instead of NULL.
 
 Cross-Average Anomalies: Wrote two variations (Subquery vs. Windowed Analytical Function) to discover individuals earning above their specific department's average baseline.
 
 
-3. Advanced Window Functions & Business Intelligence
+   # 3. Advanced Window Functions & Business Intelligence
    
 Top-N Ranking (Salary Distribution): Implemented RANK() OVER (PARTITION BY ...) to surface the top 2 highest-paid employees per department, cleanly handling salary ties.
 
